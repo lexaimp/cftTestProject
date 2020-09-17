@@ -16,9 +16,7 @@ public class MergeSort {
                 resultingArray[k] = array1[i];
                 i++;
             } else if (array1[i] < array2[j]) {
-                if (resultingArray[k] < array1[j]) {
-                    resultingArray[k] = array1[i];
-                }
+                resultingArray[k] = array1[i];
                 i++;
             } else {
                 resultingArray[k] = array2[j];
